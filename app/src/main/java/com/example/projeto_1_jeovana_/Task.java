@@ -12,6 +12,8 @@ public class Task {
 
     private boolean isCompleted;
 
+    private String id;
+
 
     public Task(String title, String description, String priority, String creationDate, boolean isCompleted) {
         this.title = title;
@@ -44,5 +46,13 @@ public class Task {
     public boolean isCompleted() { return isCompleted;}
 
     public void setCompleted(boolean completed) { isCompleted = completed;}
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
 }

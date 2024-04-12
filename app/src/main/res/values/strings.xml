@@ -6,4 +6,6 @@
         <item>Média</item>
         <item>Baixa</item>
     </string-array>
+
+    <string name="prompt_priority">Selecione uma prioridade</string>
 </resources>
